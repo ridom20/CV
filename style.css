@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    background-color: darkgray;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 10px;
+    float: left;
+
+}
+.profile
+{
+   padding: 30px;
+   float: left;
+}
+.other_info
+
+{
+    float: right;
+    padding: 30px;
+
+}
+.other_info a{
+    color: rgb(44, 12, 133);
+    font-weight: bold;
+    text-decoration: none;
+}
+.other_info a:hover{
+    cursor: pointer;
+    color: darkred;
+    text-decoration: underline;
+   
+}
+.clear
+{
+    clear: both;
+}
+hr
+{
+    border: solid black 3px;
+    margin: 20px auto;
+    width: 97%;
+    border-bottom: none;
+   
+}
+.career,.edu,.work,.language
+{
+    float: left;
+    
+    
+    width: 33%;
+}
+.describe,.qualification
+{
+    float: left;
+    
+    width: 66%;
+}
+.content
+{
+    padding-left: 10px;
+}
+.for-all
+{
+    border: black solid 1px;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+table,th,td
+{
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.content-edu,.work-info,.lan-info
+{
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.language-3
+{
+    padding: 10px;
+    float: left;
+    padding-top: 0px;
+}
+.experience
+{
+    padding-left: 340px;
+    float: left;
+    padding-top: 0px;
+    position: relative;
+    top: -30px;
+
+}
+.tech-skill
+{
+    float: left;
+    width: 33%;
+    padding-left: 15px;
+}
+
+.tech-lan
+{
+    float: left;
+    width: 64%;
+}
+
+/* * {box-sizing:border-box} */
+
+.container1 {
+    width: 100%; 
+    background-color: darkgrey; 
+  }
+  .skills {
+    text-align: right; 
+    /* padding-top: 10px; 
+    padding-bottom: 10px;  */
+    padding: auto;
+    color: darkgray; 
+  }
+
+.html
+   {
+     width: 90%;
+     /* background-color: #4CAF50; */
+     background-color: #808080;
+     
+    } 
+.css 
+{
+    width: 80%; 
+    /* background-color: #2196F3; */
+    background-color: #808080;
+} 
+.js 
+{
+    width: 65%; 
+    /* background-color: #f44336; */
+    background-color: #808080;
+} 
+.java
+ {
+     width: 60%; 
+     background-color: #808080;
+    } 
+.python 
+{
+    width: 50%; 
+    /* background-color:#9932CC ; */
+    background-color: #808080;
+} 
+
+
+.bottom
+{
+    text-align: center;
+    padding: 10px;
+}
+.bottom a
+{ 
+    margin: 20px;
+    color: rgb(70, 104, 10);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.bottom p
+{
+    margin-top: 20px;
+
+}
+
+.bottom a:hover
+{
+    text-decoration: underline;
+    color: rebeccapurple
+}
